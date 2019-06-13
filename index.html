@@ -12,7 +12,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
 
       <div class="container">
 
@@ -37,21 +37,34 @@
               </li>
 
               <li class="nav-item">
+                  <a href="#" class="nav-link">Depoimentos</a>
+                </li>
+
+              <li class="nav-item">
                 <a href="#" class="nav-link">Contatos</a>
               </li>
             </ul>
 
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="#" class="nav-link dropdown-toggle" data-toggle="drop-down" data-target="navDrop">Social</a>
 
-                  <div class="dropdown-menu">
-                    <a class="dropdow-item" href="#">Facebook</a>
-                    <a class="dropdow-item" href="#">Instagram</a>
-                    <a class="dropdow-item" href="#">Twitter</a>
-                  </div>
-                </li>
-              </ul>
+              <li class="nav-item dropdown">
+
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="navDrop">Social</a>
+
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Facebook</a>
+                  <a class="dropdown-item" href="#">Instagram</a>
+                  <a class="dropdown-item" href="#">Twitter</a>
+                </div>
+              </li>
+
+            </ul>
+
+            <form class="form-inline">
+              <input type="serach" class="form-control mr-2 ml-4" placeholder="Buscar...">
+              <button class="btn btn-info" type="submit">OK!</button>
+            </form>
+
           </div>
 
           
